@@ -10,7 +10,9 @@ project "yaml-cpp"
 	{
 		"src/**.h",
 		"src/**.cpp",
-		"include/**.h"
+		"include/**.h",
+		"include/yaml-cpp/*.cppm",
+		"*.lua",
 	}
 
 	defines
